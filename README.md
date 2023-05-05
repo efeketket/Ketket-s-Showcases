@@ -1,5 +1,5 @@
 # Ketket's-Showcases
-Minecraft Furniture Datapack for +1.19
+Minecraft Furniture Datapack for +1.19.4 Latest Version
 
 * You can place any item you want inside your showcases with Ketket's Showcases datapack.
 * You can also use shift-right-click to paint the glass of your showcases with any color you like.
