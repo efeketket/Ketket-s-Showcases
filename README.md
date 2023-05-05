@@ -1,4 +1,4 @@
-# Ketket's-Showcases
+# Ketket's-Showcases v0.1
 Minecraft Furniture Datapack for +1.19
 
 * You can place any item you want inside your showcases with Ketket's Show Cases datapack.
