@@ -1,0 +1,2 @@
+execute if entity @e[type=player,distance=..2] run data modify entity @e[type=armor_stand,sort=nearest,limit=1] CustomNameVisible set value 1b
+execute unless entity @e[type=player,distance=..2] run data modify entity @e[type=armor_stand,sort=nearest,limit=1] CustomNameVisible set value 0b
