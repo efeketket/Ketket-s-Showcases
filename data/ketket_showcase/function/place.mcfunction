@@ -1,0 +1,8 @@
+playsound minecraft:block.glass.place ambient @a[distance=..5] ~ ~1 ~ 3 1
+summon armor_stand ~ ~-1.23 ~ {Tags:["stand","showcase"],ShowArms:1b,Invisible:1b,Invulnerable:1b,PersistenceRequired:1b,NoBasePlate:1b,NoGravity:1b,ArmorItems:[{},{},{},{id:"glass",Count:1b}],HandItems:[{},{}],DisabledSlots:4144959,CustomNameVisible:0b,CustomName:'{"text":"Showcase"}'}
+setblock ~ ~1 ~ minecraft:oak_button[powered=false,face=floor]
+summon minecraft:block_display ~ ~0.160 ~ {Tags:["baseplate2","showcase"],block_state:{Name:"minecraft:stone_slab"},interpolation_duration:0,start_interpolation:0,transformation:[0.800f, 0.000f, 0.000f,-0.400f,0.000f, 0.200f, 0.000f,-0.100f,0.000f, 0.000f, 0.800f,-0.400f,0.000f, 0.000f, 0.000f,1.000f],view_range:0.15f,shadow_radius:0f,shadow_strength:0f}
+summon minecraft:block_display ~ ~0.07 ~ {Tags:["baseplate1","showcase"],block_state:{Name:"minecraft:stone_slab"},interpolation_duration:0,start_interpolation:0,transformation:[0.920f, 0.000f, 0.000f,-0.460f,0.000f, 0.120f, 0.000f,-0.060f,0.000f, 0.000f, 0.920f,-0.460f,0.000f, 0.000f, 0.000f,1.000f],view_range:0.15f,shadow_radius:0f,shadow_strength:0f}
+summon minecraft:item_display ~ ~0.65 ~ {Tags:["itemshowcase","showcase"],item:{id:"minecraft:air",Count:1s},billboard:"vertical",interpolation_duration:0,start_interpolation:0,transformation:[0.450f, 0.000f, 0.000f,0.000f,0.000f, 0.450f, 0.000f,-0.225f,0.000f, 0.000f, 0.450f,0.000f,0.000f, 0.000f, 0.000f,1.000f],view_range:0.15f,shadow_radius:0f,shadow_strength:0f}
+summon minecraft:interaction ~ ~-0.3 ~ {width:0.7,height:1.1,Tags:["showcaseinteraction","showcase"]}
+kill @s
